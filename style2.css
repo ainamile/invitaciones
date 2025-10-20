@@ -1,0 +1,66 @@
+﻿body {
+    background-image: url('invitacion.png'); /* nombre de tu archivo */
+    background-size: cover; /* que cubra toda la pantalla */
+    background-position: center; /* centrado */
+    background-repeat: no-repeat; /* que no se repita */
+    margin: 0; /* elimina márgenes predeterminados */
+    margin-top:15%;
+    min-height: 700vh; /* asegura que al menos ocupe toda la pantalla, pero permite scroll */
+}
+button {
+    width: 120px; /* tamaño del botón */
+    height: 30px;
+    background-repeat: no-repeat; /* que no se repita */
+    background-position: center; /* centrada */
+    border: none;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+    position: absolute;
+    top: 2130px;
+    left: 44%;
+    color: white;
+    font-family: 'Times New Roman', cursive;
+    font-size: 18px; /* tamaño de la letra */
+    font-weight: bold; /* opcional, hace la letra más gruesa */
+}
+
+#countdown {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: #B8860B;
+    text-align: center;
+    margin-top: 50px;
+    position: absolute;
+    top: 4400px;
+    left: 25%;
+}
+.numbers {
+    display: flex;
+    justify-content: center;
+    gap:60px;
+}
+
+    .numbers span {
+        font-size: 50px;
+        font-weight: bold;
+        font-family: Georgia; /* fuente principal y alternativa */
+    }
+
+#labels {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: #B8860B;
+    text-align: center;
+    margin-top: 50px;
+    position: absolute;
+    top: 4400px;
+    left: 25%;
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    font-size: 16px;
+    font-family: Georgia; /* fuente principal y alternativa */
+}

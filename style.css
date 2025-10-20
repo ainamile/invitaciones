@@ -1,0 +1,30 @@
+﻿body {
+    background-image: url('portada.jpg'); /* nombre de tu archivo */
+    background-size: cover; /* que cubra toda la pantalla */
+    background-position: center; /* centrado */
+    background-repeat: no-repeat; /* que no se repita */
+    margin: 0; /* elimina márgenes predeterminados */
+    margin-top:15%;
+    min-height: 100vh; /* asegura que al menos ocupe toda la pantalla, pero permite scroll */
+}
+
+button {
+    width: 500px; /* tamaño del botón */
+    height: 400px;
+    background-color:transparent;
+    background-size: contain; /* ajusta la imagen sin recortarla */
+    background-repeat: no-repeat; /* que no se repita */
+    background-position: center; /* centrada */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    position:absolute;
+    top:33%;
+    left:18%;
+}
+
+button:hover {
+    transform: scale(1.1); /* pequeño efecto al pasar el mouse */
+}
+
