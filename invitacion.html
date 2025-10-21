@@ -1,31 +1,39 @@
 ﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="es">
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Invitación</title>
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <button onclick="window.location.href='https://maps.app.goo.gl/8RBys5R85wfu75Fc8'">
-        Ver ubicación
-    </button>
-    <div id="countdown">
-        <div class="numbers">
-            <span id="days">0</span>
-            <span id="hours">0</span>
-            <span id="minutes">0</span>
-            <span id="seconds">0</span>
+
+    <div class="contenedor">
+        <img src="gratis.png" alt="fondo" class="fondo">
+
+        <!-- BOTÓN -->
+        <button onclick="window.location.href='https://maps.app.goo.gl/8RBys5R85wfu75Fc8'">
+            Ver ubicación
+        </button>
+
+        <!-- CUENTA REGRESIVA -->
+        <div class="countdown-container">
+            <div id="countdown">
+                <div class="numbers">
+                    <span id="days">0</span>
+                    <span id="hours">0</span>
+                    <span id="minutes">0</span>
+                    <span id="seconds">0</span>
+                </div>
+            </div>
+            <div id="labels">
+                <span>Días</span>
+                <span>Horas</span>
+                <span>Minutos</span>
+                <span>Segundos</span>
+            </div>
         </div>
-    </div>
-    <div id="labels">
-        <span>Días</span>
-        <span>Horas</span>
-        <span>Minutos</span>
-        <span>Segundos</span>
     </div>
 
     <script src="countdown.js"></script>
-
 </body>
 </html>
